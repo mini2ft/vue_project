@@ -1,0 +1,11 @@
+-- lodash
+npm i lodash
+
+package.json 의 eslintConfig 에 추가
+
+"eslintConfig": {
+    ....
+    "globals": {
+      "_": false
+    },    
+  },
