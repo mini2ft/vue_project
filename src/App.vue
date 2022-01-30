@@ -3,17 +3,20 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
   <ArrayVue />
+  <ReduceVue />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import ArrayVue from './pages/array.vue'
+import ReduceVue from './pages/reduce.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld, 
-    ArrayVue
+    ArrayVue,
+    ReduceVue
   }
 }
 </script>
