@@ -4,19 +4,22 @@
 
   <ArrayVue />
   <ReduceVue />
+  <FindVue />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import ArrayVue from './pages/array.vue'
 import ReduceVue from './pages/reduce.vue'
+import FindVue from './pages/find.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld, 
     ArrayVue,
-    ReduceVue
+    ReduceVue,
+    FindVue
   }
 }
 </script>
