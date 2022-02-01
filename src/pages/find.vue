@@ -1,5 +1,5 @@
 <template>
-    <h2>lodash reduce</h2> 
+    <h2>lodash find</h2> 
 
 <div>
     list = {{ list }}
