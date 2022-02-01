@@ -5,6 +5,7 @@
   <ArrayVue />
   <ReduceVue />
   <FindVue />
+  <FilterVue />
 </template>
 
 <script>
@@ -12,6 +13,7 @@
 import ArrayVue from './pages/array.vue'
 import ReduceVue from './pages/reduce.vue'
 import FindVue from './pages/find.vue'
+import FilterVue from './pages/filter.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     // HelloWorld, 
     ArrayVue,
     ReduceVue,
-    FindVue
+    FindVue,
+    FilterVue
   }
 }
 </script>
